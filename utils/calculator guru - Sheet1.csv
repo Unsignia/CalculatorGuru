@@ -1,0 +1,41 @@
+subject,name,img_link,link
+geometry,Area of Triangle,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/areatriangle.PNG,/geo/area-triangle
+geometry,Heron's Formula,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/heronsformula.PNG,/geo/herons-formula
+geometry,Area of Rectangle,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/arearect.PNG,/geo/area-rectangle
+geometry,Area of Square,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/areasquare.PNG,/geo/area-square
+geometry,Area of Parallelogram,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/areaparallelogram1.PNG,/geo/area-parallelogram
+geometry,Area of Parallelogram (w/o height),https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/areaparallelogram2.PNG,
+geometry,Area of Parallelogram (diagonal),https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/areaparallelogram3.PNG,
+geometry,Area of Trapezoid,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/areatrapezoid.PNG,/geo/area-trapezoid
+geometry,Area of Circle,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/areacircle.PNG,/geo/area-circle
+geometry,Area of Ellipse,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/areaellipse.PNG,/geo/area-ellipse
+geometry,Surface Area of Rectangular Prism,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/sarectprism.PNG,/geo/surfacearea-rectangular-prism
+geometry,Surface Area of Cylinder,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/sacylinder.PNG,/geo/surfacearea-cylinder
+geometry,Surface Area of Right Rectangular Pyramid,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/sarectpyramid.PNG,/geo/surfacearea-right-rectangular-pyramid
+geometry,Surface Area of Cone,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/sacone.PNG,/geo/surfacearea-cone
+geometry,Surface Area of Sphere,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/sasphere.PNG,/geo/surfacearea-sphere
+geometry,Surface Area of Cube,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/sacube.PNG,/geo/surfacearea-cube
+geometry,Surface Area of Torus,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/satorus.PNG,/geo/surfacearea-torus
+geometry,Surface Area of Ellipsoid,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/saellipsoid.PNG,/geo/surfacearea-ellipsoid
+geometry,Volume of Rectangular Prism,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/volrecprism.PNG,/geo/volume-rectangular-prism
+geometry,Volume of Cylinder,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/volcylinder.PNG,/geo/volume-cylinder
+geometry,Volume of Pyramid,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/volpyramid.PNG,/geo/volume-pyramid
+geometry,Volume of Cone,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/volcone.PNG,/geo/volume-cone
+geometry,Volume of Sphere,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/volsphere.PNG,/geo/volume-sphere
+geometry,Volume of Cube,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/volcube.PNG,/geo/volume-cube
+geometry,Volume of Torus,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/voltorus.PNG,/geo/volume-torus
+geometry,Volume of Ellipsoid,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/voltorus.PNG,/geo/volume-ellipsoid
+geometry,Arc Measure of a Circle,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/arcmeasure.PNG,/geo/arc-length-circle
+geometry,Area of a Sector of Circle,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/areasectorcircle.PNG,/geo/circleareasector
+geometry,Circumference of a Circle,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/circumference.PNG,/geo/circlecircumference
+algebra,Quadratic Equation,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/quadraticequation.PNG,/alg/quadratic-equation
+algebra,Distance Formula,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/distanceformula.PNG,/geo/distance-formula
+algebra,Midpoint Formula,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/midpointformula.PNG,/geo/midpoint-formula
+algebra,Slope,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/slope.PNG,/geo/slope
+algebra,Exponential Growth/Decay,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@1.01/geo%20formula/exponential1.PNG,
+geometry,Arithmetic Sequence,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/arithmeticseq.PNG,/alg/arithmetic-sequence
+geometry,Geometric Sequence,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/geometricseq.PNG,/alg/geometric-sequence
+geometry,Rotation of a Point,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@1.01/geo%20formula/rotation.png,
+geometry,Translation of a Point,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@1.01/geo%20formula/translation.png,
+geometry,Reflection of a Point,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@1.01/geo%20formula/reflection.png,
+geometry,Dilation of a Point,https://cdn.jsdelivr.net/gh/Unsignia/formula-img@1.01/geo%20formula/dilation.PNG,
