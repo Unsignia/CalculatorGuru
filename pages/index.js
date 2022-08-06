@@ -5,10 +5,10 @@ import Search from "./../components/Search.js";
 
 export default function Home() {
   return (
-    <>
+    <div className="h-screen bg-slate-300">
       <Title title="Home" />
       <Header />
       <Search />
-    </>
+    </div>
   );
 }

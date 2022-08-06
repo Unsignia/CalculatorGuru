@@ -11,7 +11,7 @@ const searchClient = algoliasearch(
 
 export default function Search() {
   return (
-    <>
+    <div className="w-1/2 translate-x-1/2">
       <InstantSearch
         searchClient={searchClient}
         indexName={process.env.NEXT_PUBLIC_ALGOLIA_INDEX_NAME}
@@ -19,6 +19,6 @@ export default function Search() {
         <CustomSearchBox />
         <CustomHits />
       </InstantSearch>
-    </>
+    </div>
   );
 }

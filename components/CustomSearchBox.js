@@ -17,8 +17,9 @@ function SearchBox({ refine }) {
         <input
           id="algolia_search"
           type="search"
+          placeholder="Search for equations..."
           onChange={(e) => refine(e.currentTarget.value)}
-          className="px-4 py-2 w-80"
+          className="px-4 py-2 w-80 rounded"
         />
       </div>
     </div>

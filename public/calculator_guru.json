@@ -1,0 +1,242 @@
+[
+  {
+    "subject": "geometry",
+    "name": "Area of Triangle",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/areatriangle.PNG",
+    "link": "/geo/area-triangle"
+  },
+  {
+    "subject": "geometry",
+    "name": "Heron's Formula",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/heronsformula.PNG",
+    "link": "/geo/herons-formula"
+  },
+  {
+    "subject": "geometry",
+    "name": "Area of Rectangle",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/arearect.PNG",
+    "link": "/geo/area-rectangle"
+  },
+  {
+    "subject": "geometry",
+    "name": "Area of Square",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/areasquare.PNG",
+    "link": "/geo/area-square"
+  },
+  {
+    "subject": "geometry",
+    "name": "Area of Parallelogram",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/areaparallelogram1.PNG",
+    "link": "/geo/area-parallelogram"
+  },
+  {
+    "subject": "geometry",
+    "name": "Area of Parallelogram (w/o height)",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/areaparallelogram2.PNG",
+    "link": "/geo/area-parallelogram"
+  },
+  {
+    "subject": "geometry",
+    "name": "Area of Parallelogram (diagonal)",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/areaparallelogram3.PNG",
+    "link": "/geo/area-parallelogram"
+  },
+  {
+    "subject": "geometry",
+    "name": "Area of Trapezoid",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/areatrapezoid.PNG",
+    "link": "/geo/area-trapezoid"
+  },
+  {
+    "subject": "geometry",
+    "name": "Area of Circle",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/areacircle.PNG",
+    "link": "/geo/area-circle"
+  },
+  {
+    "subject": "geometry",
+    "name": "Area of Ellipse",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/areaellipse.PNG",
+    "link": "/geo/area-ellipse"
+  },
+  {
+    "subject": "geometry",
+    "name": "Surface Area of Rectangular Prism",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/sarectprism.PNG",
+    "link": "/geo/surfacearea-rectangular-prism"
+  },
+  {
+    "subject": "geometry",
+    "name": "Surface Area of Cylinder",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/sacylinder.PNG",
+    "link": "/geo/surfacearea-cylinder"
+  },
+  {
+    "subject": "geometry",
+    "name": "Surface Area of Right Rectangular Pyramid",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/sarectpyramid.PNG",
+    "link": "/geo/surfacearea-right-rectangular-pyramid"
+  },
+  {
+    "subject": "geometry",
+    "name": "Surface Area of Cone",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/sacone.PNG",
+    "link": "/geo/surfacearea-cone"
+  },
+  {
+    "subject": "geometry",
+    "name": "Surface Area of Sphere",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/sasphere.PNG",
+    "link": "/geo/surfacearea-sphere"
+  },
+  {
+    "subject": "geometry",
+    "name": "Surface Area of Cube",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/sacube.PNG",
+    "link": "/geo/surfacearea-cube"
+  },
+  {
+    "subject": "geometry",
+    "name": "Surface Area of Torus",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/satorus.PNG",
+    "link": "/geo/surfacearea-torus"
+  },
+  {
+    "subject": "geometry",
+    "name": "Surface Area of Ellipsoid",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/saellipsoid.PNG",
+    "link": "/geo/surfacearea-ellipsoid"
+  },
+  {
+    "subject": "geometry",
+    "name": "Volume of Rectangular Prism",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/volrecprism.PNG",
+    "link": "/geo/volume-rectangular-prism"
+  },
+  {
+    "subject": "geometry",
+    "name": "Volume of Cylinder",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/volcylinder.PNG",
+    "link": "/geo/volume-cylinder"
+  },
+  {
+    "subject": "geometry",
+    "name": "Volume of Pyramid",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/volpyramid.PNG",
+    "link": "/geo/volume-pyramid"
+  },
+  {
+    "subject": "geometry",
+    "name": "Volume of Cone",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/volcone.PNG",
+    "link": "/geo/volume-cone"
+  },
+  {
+    "subject": "geometry",
+    "name": "Volume of Sphere",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/volsphere.PNG",
+    "link": "/geo/volume-sphere"
+  },
+  {
+    "subject": "geometry",
+    "name": "Volume of Cube",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/volcube.PNG",
+    "link": "/geo/volume-cube"
+  },
+  {
+    "subject": "geometry",
+    "name": "Volume of Torus",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/voltorus.PNG",
+    "link": "/geo/volume-torus"
+  },
+  {
+    "subject": "geometry",
+    "name": "Volume of Ellipsoid",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/voltorus.PNG",
+    "link": "/geo/volume-ellipsoid"
+  },
+  {
+    "subject": "geometry",
+    "name": "Arc Measure of a Circle",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/arcmeasure.PNG",
+    "link": "/geo/arc-length-circle"
+  },
+  {
+    "subject": "geometry",
+    "name": "Area of a Sector of Circle",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/areasectorcircle.PNG",
+    "link": "/geo/circleareasector"
+  },
+  {
+    "subject": "geometry",
+    "name": "Circumference of a Circle",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/circumference.PNG",
+    "link": "/geo/circlecircumference"
+  },
+  {
+    "subject": "algebra",
+    "name": "Quadratic Equation",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/quadraticequation.PNG",
+    "link": "/alg/quadratic-equation"
+  },
+  {
+    "subject": "algebra",
+    "name": "Distance Formula",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/distanceformula.PNG",
+    "link": "/geo/distance-formula"
+  },
+  {
+    "subject": "algebra",
+    "name": "Midpoint Formula",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/midpointformula.PNG",
+    "link": "/geo/midpoint-formula"
+  },
+  {
+    "subject": "algebra",
+    "name": "Slope",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/slope.PNG",
+    "link": "/geo/slope"
+  },
+  {
+    "subject": "algebra",
+    "name": "Exponential Growth/Decay",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@1.01/geo%20formula/exponential1.PNG",
+    "link": "/alg/exponential-growth-decay"
+  },
+  {
+    "subject": "geometry",
+    "name": "Arithmetic Sequence",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/arithmeticseq.PNG",
+    "link": "/alg/arithmetic-sequence"
+  },
+  {
+    "subject": "geometry",
+    "name": "Geometric Sequence",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/geometricseq.PNG",
+    "link": "/alg/geometric-sequence"
+  },
+  {
+    "subject": "geometry",
+    "name": "Rotation of a Point",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@1.01/geo%20formula/rotation.png",
+    "link": "/geo/point-geometry"
+  },
+  {
+    "subject": "geometry",
+    "name": "Translation of a Point",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@1.01/geo%20formula/translation.png",
+    "link": "/geo/point-geometry"
+  },
+  {
+    "subject": "geometry",
+    "name": "Reflection of a Point",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@1.01/geo%20formula/reflection.png",
+    "link": "/geo/point-geometry"
+  },
+  {
+    "subject": "geometry",
+    "name": "Dilation of a Point",
+    "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@1.01/geo%20formula/dilation.PNG",
+    "link": "/geo/point-geometry"
+  }
+]
