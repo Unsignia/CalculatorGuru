@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Image from "next/image";
 import Title from "./../../components/Title.js";
 import Header from "./../../components/Header.js";
 import Input from "./../../components/Input.js";

@@ -2,7 +2,7 @@ import { connectSearchBox } from "react-instantsearch-dom";
 
 function SearchBox({ refine }) {
   return (
-    <div className="flex items-center mt-28">
+    <div className="flex items-center mt-20">
       <div className="relative w-full">
         <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
           <svg

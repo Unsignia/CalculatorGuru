@@ -50,8 +50,11 @@
 }
 
 body {
-  /* font-family: "Nixie One"; */
   font-family: "Averia Serif Libre";
+}
+
+.font-baloo {
+  font-family: "Baloo Thambi 2";
 }
 
 /* Scrollbar */

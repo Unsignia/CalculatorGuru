@@ -8,6 +8,10 @@ export default function Home() {
     <div className="h-screen bg-gray-100">
       <Title title="Home" />
       <Header />
+      <div className="pt-20 px-16 text-center text-2xl text-gray-600 font-baloo">
+        CalculatorGuru is a one-stop shop for all your calculating needs when it
+        comes to Algebra, Geometry and soon the Sciences~
+      </div>
       <Search />
     </div>
   );
