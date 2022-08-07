@@ -80,13 +80,8 @@ export default function ArithmeticSequence({ res }) {
       <form className="w-3/4 mx-auto" onSubmit={handleSubmit}>
         <h1 className="py-8 text-center text-lg">Arithmetic Sequence</h1>
 
-        <div className="w-8 bg-gray-100 ">
-          <Image
-            src={img}
-            alt="arithmeticsequence"
-            layout="fill"
-            objectFit="fill"
-          />
+        <div className="h-20 bg-gray-100 relative">
+          <Image src={img} alt="arithmeticsequence" layout="fill" />
         </div>
 
         <div className="flex">
@@ -123,8 +118,7 @@ export default function ArithmeticSequence({ res }) {
         </button>
 
         <div className="my-4 bg-gray-50 border border-gray-300 text-gray-800 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-          The answer is:
-          {" " + arithmeticsequence(missing, an, a1, n, d)}
+          {"The answer is: " + arithmeticsequence(missing, an, a1, n, d)}
         </div>
       </form>
     </>

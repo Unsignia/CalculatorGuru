@@ -10,7 +10,7 @@ function Hits({ searchState, searchResults }) {
         <p>Aw snap! No search results were found.</p>
       )}
       {searchResults?.hits.length > 0 && validQuery && (
-        <div className="my-2 h-56 z-10 overflow-auto drop-shadow-xl">
+        <div className="pt-2 h-56 z-10 overflow-auto drop-shadow-xl">
           <ol>
             {searchResults.hits.map((hit) => (
               <li key={hit.objectID}>
