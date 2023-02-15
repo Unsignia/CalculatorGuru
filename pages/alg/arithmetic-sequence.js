@@ -6,14 +6,14 @@ import Input from "./../../components/Input.js";
 import { arithmeticsequence } from "./../../utils/geoformula.js";
 import search_item from "./../api/search-item.js";
 
-export async function getStaticProps() {
-  const res = await search_item("Arithmetic Sequence");
-  return {
-    props: {
-      res,
-    },
-  };
-}
+// export async function getStaticProps() {
+//   const res = await search_item("Arithmetic Sequence");
+//   return {
+//     props: {
+//       res,
+//     },
+//   };
+// }
 
 export default function ArithmeticSequence({ res }) {
   const [missing, setMissing] = useState("an");
@@ -22,7 +22,7 @@ export default function ArithmeticSequence({ res }) {
   const [n, setn] = useState("");
   const [d, setd] = useState("");
 
-  const img = res[0]["img_link"];
+  // const img = res[0]["img_link"];
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -79,16 +79,6 @@ export default function ArithmeticSequence({ res }) {
 
       <form className="w-3/4 mx-auto" onSubmit={handleSubmit}>
         <h1 className="py-8 text-center text-lg">Arithmetic Sequence</h1>
-
-        <div className="h-20 relative">
-          <Image
-            src={img}
-            alt="arithmeticsequence"
-            layout="fill"
-            objectFit="contain"
-            quality={100}
-          />
-        </div>
 
         <div className="flex">
           <div className="w-3/4">
