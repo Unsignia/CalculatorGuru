@@ -2,6 +2,7 @@ import { useState } from "react";
 import Title from "./../../components/Title.js";
 import Header from "./../../components/Header.js";
 import Input from "./../../components/Input.js";
+import RegentsScale from "./../../utils/regentsscaler.js";
 
 export default function FractionPercentTable() {
   const [total, setTotal] = useState("");
@@ -16,18 +17,24 @@ export default function FractionPercentTable() {
 
     return (
       <table>
-        <tr>
-          <th>Fraction</th>
-          <th>Percentage</th>
-        </tr>
+        <thead>
+          <tr>
+            <th>Fraction</th>
+            <th>Percentage</th>
+            <th>Scaled Grade</th>
+          </tr>
+        </thead>
         {arr.map((i) => {
           return (
-            <tr key={i}>
-              <td>
-                {i}/{total}
-              </td>
-              <td>{((i / total) * 100).toFixed(2)}</td>
-            </tr>
+            <tbody key={i}>
+              <tr>
+                <td>
+                  {i}/{total}
+                </td>
+                <td>{((i / total) * 100).toFixed(2)}</td>
+                <td>{RegentsScale(i, total)}</td>
+              </tr>
+            </tbody>
           );
         })}
       </table>
@@ -60,7 +67,7 @@ export default function FractionPercentTable() {
             </label>
             <input
               id="names"
-              type="text"
+              type="number"
               className="bg-gray-50 border border-gray-300 text-gray-800 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               onChange={handleInputTotal}
               value={total}
@@ -73,7 +80,6 @@ export default function FractionPercentTable() {
         </button>
 
         <div className="my-4 bg-gray-50 border border-gray-300 text-gray-800 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-          The answer is:
           {showTable ? makeTable() : null}
         </div>
       </form>

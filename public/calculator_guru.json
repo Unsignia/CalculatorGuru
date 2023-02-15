@@ -175,6 +175,12 @@
   },
   {
     "subject": "algebra",
+    "name": "Fraction Percent Table (Regents)",
+    "img_link": "",
+    "link": "/alg/fractionpercenttable"
+  },
+  {
+    "subject": "algebra",
     "name": "Quadratic Equation",
     "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@master/geo%20formula/quadraticequation.PNG",
     "link": "/alg/quadratic-equation"
