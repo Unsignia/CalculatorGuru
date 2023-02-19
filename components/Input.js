@@ -6,7 +6,7 @@ export default function Input(props) {
           htmlFor={"input-" + props.name}
           className=" mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
         >
-          {props.name} =
+          {props.name} = {props.extratext}
         </label>
         <input
           id={"input-" + props.name}
@@ -15,6 +15,8 @@ export default function Input(props) {
           placeholder="Enter your data..."
           onChange={props.function}
           value={props.value}
+          min={props.min}
+          max={props.max}
         />
       </div>
     </>

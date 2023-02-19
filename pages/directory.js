@@ -38,6 +38,21 @@ export default function Directory() {
             )}
           </div>
         </>
+        <>
+          <div className="text-2xl text-blue-700 pt-14 pb-8">Other</div>
+          <div className="grid grid-cols-3 gap-4">
+            {file.map((i, index) =>
+              i.subject == "other" ? (
+                <p
+                  key={index}
+                  className="text-gray-600 hover:text-blue-900 hover:cursor-pointer"
+                >
+                  <Link href={i.link}>{i.name}</Link>
+                </p>
+              ) : null
+            )}
+          </div>
+        </>
       </div>
     );
   };

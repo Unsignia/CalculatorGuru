@@ -244,5 +244,11 @@
     "name": "Dilation of a Point",
     "img_link": "https://cdn.jsdelivr.net/gh/Unsignia/formula-img@1.01/geo%20formula/dilation.PNG",
     "link": "/geo/point-geometry"
+  },
+  {
+    "subject": "other",
+    "name": "Salary",
+    "img_link": "",
+    "link": "/other/salary"
   }
 ]
