@@ -28,11 +28,7 @@ export default function Header() {
               <a>HOME</a>
             </Link>
           </li>
-          <li className="lg:mx-12 sm:mx-4 hover:text-black hover:font-bold">
-            <Link href="/directory">
-              <a>DIRECTORY</a>
-            </Link>
-          </li>
+       
           <li className="lg:mx-12 sm:mx-4 pr-12 hover:text-black hover:font-bold">
             <Link href="/contact">
               <a>CONTACT</a>
