@@ -1,7 +1,7 @@
-import { useState } from "react";
+import {useState} from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { IoMenu } from "react-icons/io5";
+import {IoMenu} from "react-icons/io5";
 import logo from "./../public/logo.svg";
 
 export default function Header() {
@@ -23,17 +23,19 @@ export default function Header() {
               </a>
             </Link>
           </li>
-          <li className="lg:mx-12 sm:mx-4 hover:text-black hover:font-bold">
-            <Link href="/">
-              <a>HOME</a>
-            </Link>
-          </li>
-       
-          <li className="lg:mx-12 sm:mx-4 pr-12 hover:text-black hover:font-bold">
-            <Link href="/contact">
-              <a>CONTACT</a>
-            </Link>
-          </li>
+          <div>
+            <li className="lg:mx-12 sm:mx-4 inline hover:text-black hover:font-bold">
+              <Link href="/">
+                <a>HOME</a>
+              </Link>
+            </li>
+
+            <li className="lg:mx-12 sm:mx-4 pr-12 inline hover:text-black hover:font-bold">
+              <Link href="/contact">
+                <a>CONTACT</a>
+              </Link>
+            </li>
+          </div>
         </ul>
       </nav>
     </>
