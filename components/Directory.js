@@ -26,42 +26,44 @@ export default function Directory() {
   }, {});
 
   return (
-    <div className="grid grid-cols-2">
-      {Object.keys(groupedData).map(subject => (
-        <div
-          key={subject}
-          className="bg-gray-200 rounded-3xl shadow-2xl py-10 px-10 mx-10 my-10"
-        >
+    <div className="px-8">
+      <div className="grid grid-cols-2 lg:grid-cols-3">
+        {Object.keys(groupedData).map(subject => (
           <div
-            className={`text-2xl text-center pb-8 ${
-              subject === "algebra"
-                ? "text-red-700"
-                : subject === "geometry"
-                ? "text-green-700"
-                : null
-            }`}
+            key={subject}
+            className="bg-gray-200 h-fit rounded-3xl shadow-2xl py-10 px-10 mx-10 my-10"
           >
-            {subject === "algebra" && <BiMath className="inline mb-1" />}
-            {subject === "geometry" && <TbGeometry className="inline mb-1" />}
-            {subject === "other" && <BiMath className="inline mb-1" />}
-            {subject.charAt(0).toUpperCase() + subject.slice(1)}
-          </div>
+            <div
+              className={`text-2xl text-center pb-8 ${
+                subject === "algebra"
+                  ? "text-red-700"
+                  : subject === "geometry"
+                  ? "text-green-700"
+                  : null
+              }`}
+            >
+              {subject === "algebra" && <BiMath className="inline mb-1" />}
+              {subject === "geometry" && <TbGeometry className="inline mb-1" />}
+              {subject === "other" && <BiMath className="inline mb-1" />}
+              {subject.charAt(0).toUpperCase() + subject.slice(1)}
+            </div>
 
-          <div className=" ">
-            {groupedData[subject].map((i, index) => (
-              <p
-                key={index}
-                className="text-gray-600 hover:text-blue-800 hover:cursor-pointer my-2 w-fit"
-              >
-                <BsCaretRightFill className="inline mb-1" />
-                <Link href={i.link} className="">
-                  {i.name}
-                </Link>
-              </p>
-            ))}
+            <div className=" ">
+              {groupedData[subject].map((i, index) => (
+                <p
+                  key={index}
+                  className="text-gray-600 hover:text-blue-800 hover:cursor-pointer my-2 w-fit"
+                >
+                  <BsCaretRightFill className="inline mb-1" />
+                  <Link href={i.link} className="" legacyBehavior>
+                    {i.name}
+                  </Link>
+                </p>
+              ))}
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 }

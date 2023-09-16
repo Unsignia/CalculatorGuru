@@ -10,23 +10,28 @@ export default function Home() {
     <>
       <Title title="Home" />
       <Header />
-      <div className="flex">
-        <div className="bg-gray-100 flex-grow">
-          <div>
+      <div className="flex bg-[#e3ecf1] pb-20">
+        <div className="flex-grow">
+          <div className="relative aspect-w-2 lg:aspect-w-5 aspect-h-1">
             <Image
               src="/mediamodifier.jpg"
               alt="background-hero"
+              className="absolute inset-0 w-full h-full"
               quality={100}
+              objectFit="cover"
+              objectPosition="center"
               priority={true}
               fill={true}
-              layout="fill"
             />
+            <div className="absolute inset-0 flex justify-center items-center">
+              <div className="relative text-center text-2xl text-gray-600 font-baloo">
+                CalculatorGuru is a one-stop shop for all your calculating needs
+                when it comes to Algebra, Geometry and soon the Sciences~
+              </div>
+            </div>{" "}
+            <Search />
           </div>
-          <div className="pt-20 px-16 text-center text-2xl text-gray-600 font-baloo">
-            CalculatorGuru is a one-stop shop for all your calculating needs
-            when it comes to Algebra, Geometry and soon the Sciences~
-          </div>
-          <Search />
+
           <Directory />
         </div>
       </div>
